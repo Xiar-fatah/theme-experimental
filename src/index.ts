@@ -1,10 +1,5 @@
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
-/**
- * @packageDocumentation
- * @module theme-light-extension
- */
-
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
@@ -26,8 +21,8 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const trans = translator.load('jupyterlab');
     const style = '@jupyterlab/theme-light-extension/index.css';
     manager.register({
-      name: 'JupyterLab Light',
-      displayName: trans.__('JupyterLab Light'),
+      name: 'JupyterLab Experimental',
+      displayName: trans.__('JupyterLab Experimental'),
       isLight: true,
       themeScrollbars: false,
       load: () => manager.loadCSS(style),
