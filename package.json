@@ -1,6 +1,6 @@
 {
-  "name": "@theme-experimental",
-  "version": "1.0.6",
+  "name": "theme-experimental",
+  "version": "1.0.7",
   "description": "JupyterLab - Default Light Theme",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
   "bugs": {
